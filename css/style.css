@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Cutive+Mono|Pacifico');
+
+h1{
+
+	font-family: 'Pacifico', cursive;
+	font-weight: bold;
+	font-size: 45px;
+	margin-top: 2%;
+	margin-bottom: 0;
+	color: #666;
+
+}
+
+hr{
+
+	width: 350px;
+    height: 4px;
+    display: inline-block;
+    border-style: none;
+    
+    /* degradado*/
+    background: rgba(52,247,143,1);
+	background: -moz-linear-gradient(left, rgba(52,247,143,1) 0%, rgba(245,95,240,1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(52,247,143,1)), color-stop(100%, rgba(245,95,240,1)));
+	background: -webkit-linear-gradient(left, rgba(52,247,143,1) 0%, rgba(245,95,240,1) 100%);
+	background: -o-linear-gradient(left, rgba(52,247,143,1) 0%, rgba(245,95,240,1) 100%);
+	background: -ms-linear-gradient(left, rgba(52,247,143,1) 0%, rgba(245,95,240,1) 100%);
+	background: linear-gradient(to right, rgba(52,247,143,1) 0%, rgba(245,95,240,1) 100%);
+
+}
+
+span{
+
+     font-family: 'Cutive Mono', monospace;
+     font-size: 18px;
+     background-color: rgba(52, 247, 143, 0.5); /* fondo con trasparencia*/
+     padding: 8px;
+     position: relative;
+     top: -40px;
+     left: 15px;
+
+
+}
+
+
+#main {
+
+	width: 90%;
+	height: auto;
+	padding: 2% 5%;
+
+}
+
+
+
+#seccion{
+
+	width: 100%;
+	height: auto;
+	margin-top: 50px;
+
+}
+
+#seccion img{
+
+	width: 100%;
+	height: auto;
+
+
+}
+
+
+.foto{
+
+	width: 27%;
+	height: auto;
+	display: inline-block;
+	
+}
+
+.foto:last-child{
+
+	/*margin-left: 2%;*/
+	float: right;
+}
+
+.foto:nth-last-of-type(2){
+    
+	margin-left: 9%;
+}
+
+
+
+
+
+
+
+
+
+
